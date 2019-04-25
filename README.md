@@ -11,4 +11,7 @@ Spring In Action 项目代码
 required = false的时候，当没有合适的bean的时候回跳过装填，注意以后调用
 出现的空指针问题。 @Inject和@AutoWired()大部分时候可以进行替换，细微差别
 以后在查看。
+* Spring 中的bean默认是单例实现的
+* XML配置bean当中，使用DI的方法有两种，一个是<constructor-arg>， 另一个
+是c-命名空间
 

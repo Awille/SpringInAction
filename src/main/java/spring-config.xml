@@ -2,6 +2,25 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
-    <context:component-scan base-package="wiringbean.soundsystem" />
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--<context:component-scan base-package="wiringbean.soundsystem" />-->
+
+    <bean class="wiringbean.soundsystem.SgtPeppers" id="compactDisc"/>
+    <bean class="wiringbean.soundsystem.CDPlayer" id="cdPlayer">
+        <constructor-arg ref="compactDisc"/>
+    </bean>
+
+    <bean class="wiringbean.soundsystem.BlankDisc" id="blankDisc">
+        <constructor-arg value="Sunday"/>
+        <constructor-arg value="JayChow"/>
+        <constructor-arg>
+            <list>
+                <value>Hello  World</value>
+                <value>Hello Who you are</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+
 </beans>
