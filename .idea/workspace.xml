@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="479e6115-2723-40b9-bff8-a084d3b808ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/BlankDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiringbean/conditionbeab/MagicExistsCondition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/ApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wiringbean/soundsystem/ApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wiringbean/soundsystem/ApplicationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wiringbean/soundsystem/CDPlayerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wiringbean/soundsystem/CDPlayerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/BlankDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/BlankDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,18 +42,20 @@
     <session id="1912353471">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
           <entry key="iml" value="2" />
-          <entry key="java" value="15" />
+          <entry key="java" value="17" />
           <entry key="md" value="1" />
           <entry key="xml" value="4" />
         </counts>
@@ -65,23 +64,23 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="17" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1119" />
-          <entry key="md" value="541" />
-          <entry key="xml" value="183" />
+          <entry key="java" value="1215" />
+          <entry key="md" value="1162" />
+          <entry key="xml" value="256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1119" />
-          <entry key="Markdown" value="541" />
-          <entry key="XML" value="183" />
+          <entry key="JAVA" value="1215" />
+          <entry key="Markdown" value="1162" />
+          <entry key="XML" value="256" />
         </counts>
       </usages-collector>
     </session>
@@ -89,22 +88,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CompactDisc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -112,20 +99,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/SgtPeppers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
-                <element signature="e#166#167#0" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/ApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="300">
               <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/BlankDisc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="328">
+              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -146,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            <state relative-caret-position="100">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#770#771#0" expanded="true" />
@@ -160,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="260">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state>
+              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -182,12 +168,24 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="304">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <first_editor relative-caret-position="402">
+                <caret line="34" selection-start-line="34" selection-end-line="34" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
               </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/conditionbeab/MagicExistsCondition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,16 +220,18 @@
         <option value="$PROJECT_DIR$/src/wiringbean/soundsystem/ApplicationTest.java" />
         <option value="$PROJECT_DIR$/src/wiringbean/soundsystem/CDPlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/SgtPeppers.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/MediaPlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayerConfig.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/ApplicationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/BlankDisc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring-config.xml" />
         <option value="$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/BlankDisc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/SgtPeppers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/MagicExistsCondition.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/wiringbean/conditionbeab/MagicExistsCondition.java" />
       </list>
     </option>
   </component>
@@ -253,8 +253,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="355" />
-    <option name="y" value="175" />
+    <option name="x" value="354" />
+    <option name="y" value="174" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -265,6 +265,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,6 +306,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wiringbean" type="462c0819:PsiDirectoryNode" />
+              <item name="conditionbeab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringInAction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringInAction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wiringbean" type="462c0819:PsiDirectoryNode" />
               <item name="soundsystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -336,7 +346,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -344,7 +353,7 @@
     <property name="SearchEverywhereHistoryKey" value="RunWith&#9;ACTION&#9;Coverage&#10;SpringJu&#9;PSI&#9;JAVA://org.springframework.test.context.junit4.SpringJUnit4ClassRunner" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556163606247" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556366383762" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -426,7 +435,12 @@
       <workItem from="1556109652696" duration="409000" />
       <workItem from="1556110081571" duration="2695000" />
       <workItem from="1556112827605" duration="4274000" />
-      <workItem from="1556156713914" duration="3277000" />
+      <workItem from="1556156713914" duration="4606000" />
+      <workItem from="1556248563903" duration="599000" />
+      <workItem from="1556272376685" duration="1910000" />
+      <workItem from="1556283005193" duration="236000" />
+      <workItem from="1556284273509" duration="1095000" />
+      <workItem from="1556353433379" duration="4918000" />
     </task>
     <servers />
   </component>
@@ -449,15 +463,18 @@
     <history-entry file="CDPlayerTest - 2019.04.25 at 10h 38m 53s.xml">
       <configuration name="CDPlayerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CDPlayerTest - 2019.04.27 at 16h 27m 18s.xml">
+      <configuration name="CDPlayerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16847000" />
+    <option name="totallyTimeSpent" value="26965000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -466,15 +483,15 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3275488" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3261105" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -543,63 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CompactDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/SgtPeppers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="304">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/BlankDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-test-4.3.16.RELEASE.jar!/org/springframework/test/context/ContextConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -607,17 +567,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CompactDisc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        <state relative-caret-position="100">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#770#771#0" expanded="true" />
@@ -628,8 +588,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/ApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="300">
           <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/BlankDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/CDPlayerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/soundsystem/SgtPeppers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/conditionbean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="402">
+            <caret line="34" selection-start-line="34" selection-end-line="34" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/conditionbeab/MagicExistsCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
