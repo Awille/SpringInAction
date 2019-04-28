@@ -47,8 +47,32 @@ bean只有在特定的环境变量下才创建。此时可以采用`@Conditional
 使用限定符，限定符可在装填的时候或者在类定义的时候进行设定，系统默认的限定
 符与beanId相同。
 
+### 3.4 bean的作用域
+bean的作用域分为四种，`Singleton`在整个应用中只创建一个bean实例，默认也是
+这个, `Prototype`每次注入或者通过上下文获取bean的时候都会创建一个实例, 
+`Session`在web应用中，每个会话建立一个bean实例, `Request`在web应用当中，
+为每个请求创建一个web实例。
 
+作用域的声明方式为：在类的声明或者bean配置当中使用`@Scope("作用域")`, 
+作用域的选择可以使用`ConfigurableBeanFactory.SCOPE_PROTOTYPE`来指定，
+避免出错。
 
+* 会话作用域一般运用于购物车等，与用户强关联，在一次会话汇总使用同一个购物车。
+即在一个会话中，购物车是以单例模式存在的。
+* `@Scope`中的proxyMode属性，用于解决将会话作用域的bean注入到单例的bean中
+会出现的问题。比如在购物车当中，每个会话开启都在businessService注入购物车
+实例，首先这个实例在没有会话的时候就没注入，businessService对整个应用来说
+是单例模式存在的。使用`@Scope` 下图的功能。`@Scope`内的属性值有两个，一个是
+`proxyMode = ScopedProxyMode.INTERFACES`这个值表示该类是一个接口类型，
+这也是我们所期待的，当然也可以是单纯的class类型，则值采用
+`ScopedProxyMode.TARGET_CLASS`
+<img src="\src\main\resources\readimg\scope_proxymode.png" width="400" hegiht="313" align=center />
+* 在xml实现以上代理模式，则用aop命名空间，首先scope属性赋值，然后用aop
+命名空间，然后通过调节proxy-target-class属性为true或者false来设置这是
+接口类型还是单纯的类类型。
+
+### 3.5 运行时的依赖注入
+某些bean构造器传入的参数我们希望是运行的时候才确定的。
 
 
 

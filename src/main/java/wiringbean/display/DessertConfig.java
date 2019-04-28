@@ -1,6 +1,8 @@
 package wiringbean.display;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.test.context.ContextConfiguration;
 
 @ContextConfiguration
@@ -11,6 +13,7 @@ public class DessertConfig {
     }
 
     @Bean
+    @Scope(proxyMode = ScopedProxyMode.TARGET_CLASS)
     public Dessert cookie() {
         return new Cookie();
     }
