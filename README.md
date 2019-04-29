@@ -66,13 +66,25 @@ bean的作用域分为四种，`Singleton`在整个应用中只创建一个bean�
 `proxyMode = ScopedProxyMode.INTERFACES`这个值表示该类是一个接口类型，
 这也是我们所期待的，当然也可以是单纯的class类型，则值采用
 `ScopedProxyMode.TARGET_CLASS`
-<img src="\src\main\resources\readimg\scope_proxymode.png" width="400" hegiht="313" align=center />
+<img src="https://github.com/Awille/SpringInAction/blob/master/src/main/resources/readimg/scope_proxymode.PNG" width="400" hegiht="313" align=center />
 * 在xml实现以上代理模式，则用aop命名空间，首先scope属性赋值，然后用aop
 命名空间，然后通过调节proxy-target-class属性为true或者false来设置这是
 接口类型还是单纯的类类型。
 
 ### 3.5 运行时的依赖注入
-某些bean构造器传入的参数我们希望是运行的时候才确定的。
+某些bean构造器传入的参数我们希望是运行的时候才确定的。spring提供了两种
+方式来实现，一个是属性占位符(Property placeholder),另一个是spring表达式
+语言。该章节的内容快速过了一下，以后细节可以再倒回来看。
+
+
+## chapter4 - 面向切面的Spring
+之前的章节都是在对依赖注入做一些解释，这里我们开始关注spring原理的第二大
+部分-AOP（Aspect Oriented Programming）
+### 4.1 面向切面编程的概念
+* AOP术语：advice(通知，指切面要完成的工作)， pointcut（切点），join point（连接点）
+
+
+
 
 
 

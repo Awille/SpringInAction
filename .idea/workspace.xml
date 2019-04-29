@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="479e6115-2723-40b9-bff8-a084d3b808ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/readimg/scope_proxymode.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wiringbean/display/DessertConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wiringbean/display/DessertConfig.java" afterDir="false" />
@@ -41,14 +40,14 @@
     <session id="1912353471">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -74,7 +73,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1789" />
-          <entry key="md" value="2631" />
+          <entry key="md" value="3004" />
           <entry key="xml" value="256" />
         </counts>
       </usages-collector>
@@ -82,7 +81,7 @@
         <counts>
           <entry key="HTML" value="10" />
           <entry key="JAVA" value="1789" />
-          <entry key="Markdown" value="2621" />
+          <entry key="Markdown" value="2994" />
           <entry key="XML" value="256" />
         </counts>
       </usages-collector>
@@ -94,8 +93,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="505">
-                <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <first_editor relative-caret-position="268">
+                <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -107,13 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/display/DessertConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -192,8 +186,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="352" />
-    <option name="y" value="172" />
+    <option name="x" value="351" />
+    <option name="y" value="171" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -204,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -292,13 +285,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="RunWith&#9;ACTION&#9;Coverage&#10;SpringJu&#9;PSI&#9;JAVA://org.springframework.test.context.junit4.SpringJUnit4ClassRunner" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556457814900" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556459325130" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -416,7 +410,8 @@
       <workItem from="1556368598245" duration="2546000" />
       <workItem from="1556374555352" duration="893000" />
       <workItem from="1556419403211" duration="4982000" />
-      <workItem from="1556456874654" duration="940000" />
+      <workItem from="1556456874654" duration="2958000" />
+      <workItem from="1556503316233" duration="910000" />
     </task>
     <servers />
   </component>
@@ -444,13 +439,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38309000" />
+    <option name="totallyTimeSpent" value="41237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2208" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22386059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -465,7 +460,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3275488" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.324295" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3243626" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -674,21 +669,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wiringbean/display/DessertConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="505">
-            <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <first_editor relative-caret-position="268">
+            <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />

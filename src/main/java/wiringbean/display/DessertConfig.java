@@ -13,7 +13,6 @@ public class DessertConfig {
     }
 
     @Bean
-    @Scope(proxyMode = ScopedProxyMode.TARGET_CLASS)
     public Dessert cookie() {
         return new Cookie();
     }
