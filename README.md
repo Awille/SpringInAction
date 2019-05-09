@@ -99,6 +99,7 @@ spring只支持方法级别的连接点。
 
 ### 4.2 通过切点来选择连接点
 * AspectJ 推荐书籍  AspectJ in Action
+* AspectJ 切点表达式
 
 
 
