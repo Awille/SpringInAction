@@ -66,7 +66,7 @@ bean的作用域分为四种，`Singleton`在整个应用中只创建一个bean�
 `proxyMode = ScopedProxyMode.INTERFACES`这个值表示该类是一个接口类型，
 这也是我们所期待的，当然也可以是单纯的class类型，则值采用
 `ScopedProxyMode.TARGET_CLASS`
-<img src="https://github.com/Awille/SpringInAction/blob/master/src/main/resources/readimg/scope_proxymode.PNG" width="400" hegiht="313" align=center />
+\<img src="https://github.com/Awille/SpringInAction/blob/master/src/main/resources/readimg/scope_proxymode.PNG" width="400" hegiht="313" align=center />
 * 在xml实现以上代理模式，则用aop命名空间，首先scope属性赋值，然后用aop
 命名空间，然后通过调节proxy-target-class属性为true或者false来设置这是
 接口类型还是单纯的类类型。
@@ -81,7 +81,26 @@ bean的作用域分为四种，`Singleton`在整个应用中只创建一个bean�
 之前的章节都是在对依赖注入做一些解释，这里我们开始关注spring原理的第二大
 部分-AOP（Aspect Oriented Programming）
 ### 4.1 面向切面编程的概念
-* AOP术语：advice(通知，指切面要完成的工作)， pointcut（切点），join point（连接点）
+* AOP术语：advice(通知，指切面要完成的工作)， pointcut（切点），
+join point（连接点），aspect(切面)， 引入（Introduction），
+织入（weaving）。
+织入的三种时机：
+1、编译器，需要特殊的编译器支持，如AspectJ的织入编译器
+2、类加载时期：切面在目标类加载在JVM时织入，这种方式需要特殊的
+类加载器，AspectJ5的加载时织入(load-time weaving)可以支持该种
+方式织入切面。
+3、运行期：切面在应用运行的某个时刻被织入。一般在织入切面是，
+AOP容器会为目标对形象动态的创建一个代理对象。SpringAOP为经典例子。
+* Spring AOP框架，spring通知都是java编写的。Spring在运行时通知对象，
+spring只支持方法级别的连接点。
+*截止Spring 的AOP命名空间，我们可以将纯POJO住转换为切面，这种方式
+需要使用XML来进行配置。
+
+
+### 4.2 通过切点来选择连接点
+* AspectJ 推荐书籍  AspectJ in Action
+
+
 
 
 
