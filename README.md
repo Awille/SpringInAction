@@ -102,6 +102,10 @@ spring只支持方法级别的连接点。
 * AspectJ 切点表达式
 * @EnableAspectJAutoProxy(proxyTargetClass = true) 
 这里由Spring aop代理混用的知识点
+JDK 动态代理与 CGLIB代理
+* 使用注解创建切面、切面demo， 创建环绕通知
+
+
 
 
 
