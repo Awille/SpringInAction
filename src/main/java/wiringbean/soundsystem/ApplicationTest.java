@@ -1,6 +1,7 @@
 package wiringbean.soundsystem;
 
 import concert.ConcertConfig;
+import concert.Encoreable;
 import concert.JayConcert;
 import concert.Performance;
 import org.springframework.context.ApplicationContext;
@@ -18,8 +19,11 @@ public class ApplicationTest {
 //        sgtPeppers.play();
 //        MediaPlayer mediaPlayer = context.getBean("cdPlayer", MediaPlayer.class);
 //        mediaPlayer.play();
-        Performance jayConcert = context.getBean("jayChowPerformance", JayConcert.class);
+        Performance jayConcert = (Performance) context.getBean("jayChowPerformance");
+        Encoreable encoreable = (Encoreable) context.getBean("jayChowPerformance");
         jayConcert.perform();
+        encoreable.performEncore();
+
 
     }
 }

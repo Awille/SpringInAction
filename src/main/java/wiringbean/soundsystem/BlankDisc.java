@@ -20,4 +20,8 @@ public class BlankDisc implements CompactDisc {
             System.out.println("Track " + track);
         }
     }
+
+    public void playTrack(int i) {
+        System.out.println("Hello");
+    }
 }
